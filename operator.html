@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        // if statement
+        var a=20;
+        var b=20;
+
+
+        if (a>=b){
+            document.write('welcome to javascript <br>')
+        }
+        
+        // if logical statement
+        // && and operator
+        age=21;
+
+        if(age>=18 && age<=21){
+            document.write("you are eligible <br>")
+        }
+        // || (or operator)
+        age=23;
+
+        if(age>=18 || age<=21){
+            document.write("you are eligible <br>")
+        }
+        // ! (Not operator)
+        age=19;
+
+        if(!(age<=18 )){
+            document.write("you are eligible<br>")
+        }
+        // if else statement
+        age=17;
+
+        if(age<=18 ){
+            document.write("you are eligible<br>")
+        }else{document.write("you are not eligible")}
+
+        // if else if statement
+        var per = 65;
+
+        if(per >= 80 && per <= 100 ){
+            document.write("you are in Merit")
+        }else if(per >= 60 && per <= 80){
+            document.write("you are Ist division<br>")
+        }
+        else if(per >= 45 && per <= 59){
+            document.write("you are IInd division")
+        }
+        else if(per >= 33 && per <= 44){
+            document.write("you are IIIrd division")
+        }
+        else if(per < 33 ){
+            document.write("you are Fail")
+        }else{
+            document.write("enter valid roll no.")
+        }
+    </script>
+</body>
+</html>
